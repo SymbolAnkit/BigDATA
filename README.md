@@ -124,10 +124,11 @@ rxDataStep(inData = target , outFile = outdatasource , append = "none",overwrite
 
 # append="rows" will not create a new table
 # append="none" will create a new table (but check column types that are picked for you especially if you have strings in your dataframe!)
-#overwrite = T it will truncate data in the table.
+
+# overwrite = T it will truncate data in the table.
 
 
-N/GqBtOSNCEJ8s3RLbYdXyJvLnoV17lmx9Fqms5XOsEqk2Io/YSYAc/8tT3df1p2jAErqUFFoW+VfLES60fHWg==
+N/GqBtOSNCEJ8s3RLbYdXyJvLnoV17lmx9Fqms5XOsEqk2Io/YSYAc/8tT3df1p2jAErqUFFoW+VfLES60fHWg=
 
 
 
