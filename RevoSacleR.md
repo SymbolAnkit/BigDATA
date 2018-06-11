@@ -1,11 +1,15 @@
-# Microsoft-R
+                                                    # Microsoft-RevoScaleR
 
+# Clear environment
 rm(list = ls())
 
+# Load required packages
 library(dplyr)
 
+# Set working directory
 setwd("C:/Users/Ankit/Desktop/BIG_DATA")
 
+# coonection String 
 sqlServerConnString <- "SERVER=SERVER_NAME;DATABASE=DBN;trusted_connection =T"
 
 sqlServerDataDS <- RxSqlServerData(sqlQuery = "write SQL query",
